@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// Pages
+import 'package:fukayomi/pages/library.dart';
+
 void main() => runApp(MangaApp());
 
 class MangaApp extends StatelessWidget {
@@ -10,7 +13,7 @@ class MangaApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: //MyHomePage(title: 'Flutter Demo Home Page'),
+      home: LibraryPage(),
     );
   }
 }
